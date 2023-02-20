@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Intra </title>
+    <link rel="stylesheet" href="css/style.css">
+   
+    <!-- Include eel.js - note this file doesn't exist in the 'web' directory -->
+    <script type="text/javascript" src="/eel.js"></script>
+
+    <script type="text/javascript">
+      eel.expose(say_hello_js); // Expose this function to Python
+      function say_hello_js(x) {
+        console.log("Hello from " + x);
+      }
+
+      say_hello_js("Javascript World!");
+      eel.say_hello_py("Javascript World!"); // Call a Python function
+    </script>
+
+    <!--get number of row-->
+    <script type="text/javascript">
+      eel.expose(total_rows_js);
+      function total_rows_js(x) {
+        document.getElementById("total_rows").innerHTML = x + " entries   ";
+      } 
+    </script>
+
+
+    <!--get height and weight-->
+    <script type="text/javascript">
+      eel.expose(update_hw_js);
+      function update_hw_js(a, g, h, w) {
+        document.getElementById("age").value = a ;
+        document.getElementById("gender").value = g ;
+        document.getElementById("height").value = h ;
+        document.getElementById("weight").value = w ;
+      } 
+    </script>
+
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+<!--     <script
+    src = "https://cdn.jsdelivr.net/npm/chartjs-chart-wordcloud@4.1.0/build/index.umd.min.js">
+    </script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.11.4/chartist.min.js" integrity="sha512-9rxMbTkN9JcgG5euudGbdIbhFZ7KGyAuVomdQDI9qXfPply9BJh0iqA7E/moLCatH2JD4xBGHwV6ezBkCpnjRQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+  </head>
+
+  <!--body landmark-->
+  <body class = "moon-gray bg-near-black pa4">
+    
+    <div class= "bg-black h-100 flex flex-column pl3 pr3">
+
+      <!--header section-->
+      <div class="flex items-end justify-between w-100 h-10 cf">
+          <!--LOGO intra section w3 w25 mw4 h1 -->
+          <div class="auto w25 fl light-blue b pt01 mr2 ml3">
+            INTRA
+          </div>
+          <div class=" auto  fl ">
+            <button class = "titlebt " onclick="show_flex('overview', 'flex');hide_flex('entries'); hide_flex('search_suggestions'); hide_flex('guide');"> 
+              overview
+            </button>
+          </div>
+          <div class="auto  fl ">
+            <button class = "titlebt " onclick="show_flex('entries', 'block');hide_flex('overview'); hide_flex('search_suggestions'); hide_flex('guide');"> 
+              entries 
+            </button>
+          </div>
+
+          <div class="auto  fl ">
+            <button class = "titlebt " onclick="show_flex('guide', 'block');hide_flex('overview'); hide_flex('search_suggestions'); hide_flex('entries');"> 
+              guide 
+            </button>
+          </div>
+
+          <div id = "total_rows" class="w-70 tr mr2">
+              guide on the left   
+          </div>
+      </div>
+
+      <!--
+        MIDDLE section
+        - overview
+        - entries
+        - guide
+      -->
+
+      <!--THIS IS overview section -->
+      <div id = "overview" class="flex w-100 h-75">
+        <!--overview left section-->
+
+        <div class="flex flex-column w-25 mt3 mr1 ml3">
+
+          <div class = " h3 mb2">
+            <div class="flex mb2">
+              <div class = " h-50 b w-30">
+                Calories
+              </div>
+              <div id = 'today-calories-analysis-text' class = "tr h-50 b w-70">
+                hello
+              </div>
+            </div>
+
+            <div class = "bar-container">
+              <div id = 'today-calories-analysis-bar' class = "bar bg-white">
+              
+              </div>
+            </div>
+          </div>
+
+          <div class = " h3 mb2">
+            <div class="flex mb2">
+              <div class = " h-50 b w-30">
+                Protein
+              </div>
+              <div id = 'today-protein-analysis-text' class = "tr h-50 b w-70">
+                hello
+              </div>
+            </div>
+
+            <div class = "bar-container">
+              <div id = 'today-protein-analysis-bar' class = "bar bg-white">
+              
+              </div>
+            </div>
+          </div>
+
+          <div class = " h3 mb2">
+            <div class="flex mb2">
+              <div class = " h-50 b w-30">
+                Carb
+              </div>
+              <div id = 'today-carb-analysis-text' class = "tr h-50 b w-70">
+                hello
+              </div>
+            </div>
+
+            <div class = "bar-container">
+              <div id = 'today-carb-analysis-bar' class = "bar bg-white">
+              
+              </div>
+            </div>
+          </div>
+
+          <div class = " h3 mb2">
+            <div class="flex mb2">
+              <div class = " h-50 b w-30">
+                Fat
+              </div>
+              <div id = 'today-fat-analysis-text' class = "tr h-50 b w-70">
+                hello
+              </div>
+            </div>
+
+            <div class = "bar-container">
+              <div id = 'today-fat-analysis-bar' class = "bar bg-white">
+              
+              </div>
+            </div>
+          </div>
+              
+
+          <!-- <img src = "../img/image.png" width="100%" height="36%" class = "mt3"> -->
+          <div class = "w-100 h-35 mt3">
+            <canvas id="daily_chart"></canvas>
+          </div>
+
+        </div>
+
+        <!--overview center section-->
+        <div class="w-75 mt2 ml2 mr2">
+         <!--  <img src = "../img/image.png"> -->
+          <canvas id="monthly_chart" style="width:100%;max-width:700px; height:100%"></canvas>
+
+        </div>
+
+        <!--overview right section-->
+<!--         <div class="outline w-20  mt2 ml1 mr3">
+          overview right section
+        </div> -->
+      </div>
+
+      <div id = "guide" class="w-100 h-75 flex mt3 ml3" style = 'display: none;'>
+        <p>
+          While using the app, you can simply record what you have ate by entering 
+          the setence in the input box below
+          <br>
+          <b class = "blue">
+            ate food_name, protein, carb, fat, calories, gram  
+          </b> 
+          <br>
+          and press enter. 
+          When there is an data you are unsure, just replace it with a blank.
+        </p>
+        <br>
+
+        <b>OVERVIEW</b>
+        <p>
+          overview panel present a summary of what your cosumption. 
+          The top left chart shows your daily total nutrition intake and limit. 
+          The bottom left chart shows the amount of calories you've eaten at each hour throughout the day. 
+          The graph on the right displays the monthly summary of your calorie intake. 
+        </p>
+        <br>
+        <br />
+        <b>ENTRIES</b>
+        <p>
+          entries panel shows all the entries you have recorded.
+        </p>
+        <br>
+
+        <b>About myself</b>
+
+          Age:    
+          <input class = "user_input mr3" type="text" id="age" value="20"size="4">
+
+          Gender:    
+          <select class = "user_input mr3" id="gender" name="gender" size="1" onchange="eel.add_info(a_input.value, g_input.value,  h_input.value, w_input.value);">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+
+          Height: 
+          <input class = "user_input " type="text" id="height" value="188"size="4">
+          <b  class = "mr3">cm</b>
+          Weight:  
+          <input class = "user_input" type="text" id="weight" value="70" size="4"> 
+          <b  class = "mr3">kg</b>
+        <p>
+          This data will be used to calculate your recommanded daily intake limit.
+        </p>
+
+      </div>
+      
+      <!--entries  section h5modified-->
+       <!--  flex flex-column-reverse  -->
+        <div id="entries" class="w-100 h-72  mt2 ml2" style = 'display: none;'>
+          <div class = "h1">
+            <div class = "fl w-8 ml1 pl1 b bg-mid-gray">
+              ID
+            </div>
+            <div class = "fl w-25 ml1 pl1 b bg-mid-gray">
+              Name
+            </div>
+            <div class = "fl w-8 ml1 pl1 b bg-mid-gray">
+              Calories
+            </div>
+            <div class = "fl w-8 ml1 pl1 b bg-mid-gray">
+              Protein
+            </div>
+            <div class = "fl w-8 ml1 pl1 b bg-mid-gray">
+              Carb
+            </div>
+            <div class = "fl w-8 ml1 pl1 b bg-mid-gray">
+              Fat
+            </div>
+            <div class = "fl w-8 ml1 pl1 b bg-mid-gray">
+              gram
+            </div>
+            <div class = "fl w-12 ml1 pl1 b bg-mid-gray">
+              Date
+            </div>
+            <div class = "fl w-8 ml1 pl1 b bg-mid-gray">
+              Time
+            </div>
+          </div>
+          <div id="entries_sub" class=" w-100">
+
+          </div>
+        </div>
+
+        
+
+      <div id = "search_suggestions" class = "flex flex-column-reverse w-100 h-72 mt3"  style = 'display: none;'>
+        <div id = "search_suggestions_0" class = "fl  h-10 suggestion v-mid">
+          Time
+        </div>
+        <div id = "search_suggestions_1" class = "fl  h-10 suggestion v-mid">
+          Time
+        </div>
+        <div id = "search_suggestions_2" class = "fl  h-10 suggestion v-mid">
+          Time
+        </div>
+        <div id = "search_suggestions_3" class = "fl  h-10 suggestion">
+          Time
+        </div>
+        <div id = "search_suggestions_4" class = "fl  h-10 suggestion">
+          Time
+        </div>
+        <div id = "search_suggestions_5" class = "fl  h-10 suggestion">
+          Time
+        </div>
+        <div id = "search_suggestions_6" class = "fl  h-10 suggestion">
+          Time
+        </div>
+        <div id = "search_suggestions_7" class = "fl  h-10 suggestion">
+          Time
+        </div>
+        <div id = "search_suggestions_8" class = "fl  h-10 suggestion">
+          Time
+        </div>
+        <div id = "search_suggestions_9" class = "fl  h-10 suggestion">
+          Time
+        </div>
+
+
+
+
+
+      </div>
+       <!--bottom input section-->
+      <div class = "w-100 h-10 flex items-center mt3 ">
+        <input  type="text" id="user_input" name="user_input" placeholder = "type something ..."
+                class="w-100 h2 user_input moon-gray">
+      </div>
+
+     <!--  <div id = "word cloud" style="width: 960px; height: 600px; border: 1px solid white">
+        <canvas id="canvas"></canvas>
+      </div> -->
+    </div>
+
+
+  </body>
+
+
+  <!--get text from input space-->
+  <script type="text/javascript">
+    let suggestions = []
+    let previous_section = 'overview'
+
+    var input = document.getElementById("user_input");
+    input.addEventListener("keypress", function(event) {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        eel.handle_input(input.value);
+        input.value = "";
+        hide_other_suggesiton()
+      }
+    });
+
+    var a_input = document.getElementById("age");
+    var g_input = document.getElementById("gender");
+    var h_input = document.getElementById("height");
+    var w_input = document.getElementById("weight");
+    a_input.addEventListener("keypress", function(event) {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        eel.add_info(a_input.value, g_input.value,  h_input.value, w_input.value);
+      }
+    });
+
+    h_input.addEventListener("keypress", function(event) {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        eel.add_info(a_input.value, g_input.value,  h_input.value, w_input.value);
+
+      }
+    });
+    w_input.addEventListener("keypress", function(event) {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        eel.add_info(a_input.value, g_input.value,  h_input.value, w_input.value);
+
+      }
+    });
+    w_input.addEventListener("change", function(event) {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        eel.add_info(a_input.value, g_input.value,  h_input.value, w_input.value);
+
+      }
+    });
+
+
+
+    function hide_other_suggesiton(){
+      if(document.getElementById('search_suggestions').style.display != "none") {
+            hide_flex('entries'); 
+            hide_flex('overview');
+            hide_flex('search_suggestions'); 
+            hide_flex('guide')
+            if(previous_section == 'entries') {
+              show_flex( previous_section, 'block');
+            }
+            if(previous_section == 'overview') {
+              show_flex( previous_section, 'flex');
+            }
+          }
+    }
+
+    input.onkeyup = (e)=>{
+      let userData = e.target.value; //user enetered data
+      let emptyArray = [];
+      if(userData){
+        if(userData.toLocaleLowerCase().startsWith('!ate '))  {
+          emptyArray = suggestions.filter((data)=>{
+              //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
+              return data.toLocaleLowerCase().includes(userData.slice(4).toLocaleLowerCase());
+          });
+          /* eel.say_hello_py(emptyArray.length != 0) */
+          if(emptyArray.length != 0){
+            for(let i  = 0; i < 10; i++) {
+              document.getElementById("search_suggestions_" + i).innerHTML = ""
+            }
+            for(let i  = 0; i < Math.min(emptyArray.length, 10); i++) {
+              document.getElementById("search_suggestions_" + i).innerHTML = "&#x2022 " + emptyArray[i]
+            }
+
+            if(document.getElementById('search_suggestions').style.display == "none") {
+              if(document.getElementById('entries').style.display != "none") {
+                previous_section = 'entries'
+              }
+              if(document.getElementById('overview').style.display != "none") {
+                previous_section = 'overview'
+              }
+            }
+            show_flex('search_suggestions', 'flex');
+            hide_flex('entries'); 
+            hide_flex('overview');
+            
+          } 
+          else
+          {
+            
+            hide_other_suggesiton();
+          }
+        }
+        else{
+          hide_other_suggesiton()
+        }
+      }
+    }
+
+    eel.expose(update_suggestion)
+    function update_suggestion(x) {
+      suggestions = x
+    }
+  </script>
+
+  <!-- get suggesiton when clicked -->
+  <script>
+    // for(let i = 0; i < 10; i++)  {
+      var input = document.getElementById("user_input");
+      var suggesiton_1 =  document.getElementById("search_suggestions_2");
+      suggesiton.addEventListener("click", function(event) {
+        input.value = "ate " +  suggesiton.innerHTML.slice(1, suggesiton.innerHTML.length) + ',' ;
+        for(let i  = 0; i < 10; i++) {
+              document.getElementById("search_suggestions_" + i).innerHTML = ""
+            }
+        hide_other_suggesiton()
+      });
+      var suggesiton =  document.getElementById("search_suggestions_3");
+      suggesiton.addEventListener("click", function(event) {
+        input.value = "ate " +  suggesiton.innerHTML.slice(1, suggesiton.innerHTML.length) + ',' ;
+        for(let i  = 0; i < 10; i++) {
+              document.getElementById("search_suggestions_" + i).innerHTML = ""
+            }
+        hide_other_suggesiton()
+      });
+    // }
+  </script>
+
+  <!--show and hide div-->
+  <script>
+    function show_flex(show_flex, type) {
+        document.getElementById(show_flex).style.display = type;
+    }
+  </script>
+  <script>
+    function hide_flex(hide_flex) {
+        document.getElementById(hide_flex).style.display = "none";
+    }
+  </script>
+
+  <!--scroable entries-->
+
+  <script>
+    /* prepare for creatign a new entries */
+    eel.expose(remove_sub_div)
+    function remove_sub_div() {
+      const parent = document.getElementById("entries_sub")
+      while (parent.firstChild) {
+          parent.firstChild.remove()
+      }
+      prep_new_div()
+    }
+
+
+    eel.expose(prep_new_div)
+    function prep_new_div()  {
+      var num    = document.getElementById("entries_sub").childElementCount;
+      eel.get_entries_from_py(num + 1)
+    }
+
+    /* create the new entries */
+    eel.expose(create_new_div)
+    function create_new_div(entries_res)  {
+        var num    = document.getElementById("entries_sub").childElementCount;
+        var newDiv = document.createElement("div");
+        newDiv.className = "h2 ma1 entriesgrid";
+        newDiv.id = "entries" + num.toString();
+       /*  newDiv.innerHTML = entries_res.toString(); */
+        document.getElementById("entries_sub").appendChild(newDiv);
+       
+        for(let i = 0; i < 9; i++)  {
+          var newDiv = document.createElement("div");
+          newDiv.innerHTML = entries_res[i].toString() + "&nbsp";
+          if(i == 1)
+          { newDiv.className = "fl w-25 ml1 pl1 pt2"}
+          else if (i == 7)
+          { newDiv.className = "fl w-12 ml1 pl1 pt2"}
+          else
+          { newDiv.className = "fl w-8 ml1 pl1 pt2"}
+          newDiv.id = "entries" + num.toString() + "sub" + i.toString()
+
+          document.getElementById("entries" + num.toString()).appendChild(newDiv);
+
+          if(i != 0)  {
+          document.getElementById("entries" + num.toString() + "sub" + i.toString()).addEventListener('dblclick', function(event) 
+          {
+            var val    = this.innerHTML.replaceAll("&nbsp;", "");
+            var input  = document.createElement("input");
+            input.value= val;
+            input.className = "w-85 no_outline"
+            input.addEventListener('dblclick', function(event)  {
+              
+            })
+            input.addEventListener("keypress", function(event) {
+              if (event.key === "Enter") {
+                event.preventDefault();
+                input.blur();
+              }
+            });
+            input.onblur = function(){
+              var val  = this.value;
+              this.parentNode.innerHTML = val  + "&nbsp";
+              eel.update_entries_id_app(num, i, val)
+            }
+            this.innerHTML="";
+            this.appendChild(input);
+            input.focus();
+          })};
+        }
+
+
+        checkForNewDiv();
+    }
+
+    eel.expose(create_new_empty_div)
+    function create_new_empty_div() {
+      var num    = document.getElementById("entries_sub").childElementCount;
+      var newDiv = document.createElement("div");
+      newDiv.className = "h-0";
+      document.getElementById("entries_sub").appendChild(newDiv);
+      checkForNewDiv();
+    }
+
+    document.getElementById("entries_sub").addEventListener("scroll", function(event) 
+    {
+      prep_new_div()
+    });
+
+
+    var checkForNewDiv = function() {
+    var lastDiv = document.querySelector("#entries_sub > div:last-child");
+    var maindiv = document.querySelector("#entries_sub");
+    var lastDivOffset = lastDiv.offsetTop + lastDiv.clientHeight;
+    var pageOffset = maindiv.offsetTop + maindiv.clientHeight;
+    if (pageOffset > lastDivOffset - 10) {
+      prep_new_div();
+    }
+    
+  };
+  prep_new_div();
+
+  </script>
+
+<!-- For updating the data in overview part-->
+<script>
+eel.expose(total_nutrition_js)
+function total_nutrition_js(calories, protein, carb, fat, calories_max, protein_max, carb_max, fat_max) {
+  if (calories < calories_max)  {
+    document.getElementById('today-calories-analysis-bar').style.width  = calories / calories_max * 100 + '%'
+  } else  {
+    document.getElementById('today-calories-analysis-bar').style.width  = '100%'
+    document.getElementById('today-calories-analysis-bar').style.backgroundColor  = 'red'
+  }
+  document.getElementById('today-calories-analysis-text').innerHTML   = calories + "/" + calories_max
+
+  if (protein < protein_max)  {
+    document.getElementById('today-protein-analysis-bar').style.width   = protein / protein_max * 100 + '%'
+  } else  {
+    document.getElementById('today-protein-analysis-bar').style.width  = '100%'
+    document.getElementById('today-protein-analysis-bar').style.backgroundColor  = 'red'
+  }
+  document.getElementById('today-protein-analysis-text').innerHTML    = protein + "/" + protein_max
+
+  if (carb < carb_max)  {
+    document.getElementById('today-carb-analysis-bar').style.width      = carb / carb_max * 100 + '%'
+  } else  {
+    document.getElementById('today-carb-analysis-bar').style.width  = '100%'
+    document.getElementById('today-carb-analysis-bar').style.backgroundColor  = 'red'
+  }
+  document.getElementById('today-carb-analysis-text').innerHTML       = carb + "/" + carb_max
+
+  if (fat < fat_max)  {
+    document.getElementById('today-fat-analysis-bar').style.width       = fat / fat_max * 100 + '%'
+  } else  {
+    document.getElementById('today-fat-analysis-bar').style.width  = '100%'
+    document.getElementById('today-fat-analysis-bar').style.backgroundColor  = 'red'
+  }
+  document.getElementById('today-fat-analysis-text').innerHTML        = fat + "/" + fat_max
+}
+</script>
+
+
+<script>
+  var data = {
+    labels: [],
+    datasets: [{
+      label: "Total calories",
+      backgroundColor: "rgba(204,204,204, 1)",
+      borderColor: "rgba(204,204,204, 1)",
+      borderWidth: 2,
+      hoverBackgroundColor: "rgba(255,99,132,1)",
+      hoverBorderColor: "rgba(255,99,132,1)",
+      data: [],
+    },
+    {
+        type: 'line',
+        label: 'Recommanded calories',
+        data: [2200, 2200, 2300],
+        backgroundColor: "rgba(255,99,132, 1)",
+        fill: false,
+        borderColor: "rgba(255,99,132, 1)",
+        order: 0,
+    }]
+  };
+
+  var options = {
+    maintainAspectRatio: false,
+    legend: {
+          display: false
+      },
+    scales: {
+      yAxes: [{
+              ticks: {
+                  display: false,
+                  min:400
+              }
+          }],
+      xAxes: [{
+          ticks: {
+            fontSize: 10,
+            maxTicksLimit: 10.1,
+            maxRotation: 0,
+            minRotation: 0
+          }
+        }]
+    }
+  };
+
+  var monthly_chart = new Chart('monthly_chart', {
+    type: 'bar',
+    options: options,
+    data: data
+  });
+
+  eel.expose(update_monthly_chart);
+  function update_monthly_chart(_data, _label, _min, _data_1){
+    monthly_chart.data.datasets[0].data = _data;
+    monthly_chart.data.datasets[1].data = _data_1;
+    monthly_chart.data.labels = _label;
+    monthly_chart.options.scales.yAxes[0].ticks.min = _min - 200
+    monthly_chart.update();
+  }
+
+</script>
+
+<script>
+  var data = {
+    labels: [],
+    datasets: [{
+      label: "Total calories",
+      backgroundColor: "rgba(204,204,204, 1)",
+      borderColor: "rgba(204,204,204, 1)",
+      borderWidth: 2,
+      hoverBackgroundColor: "rgba(255,99,132,1)",
+      hoverBorderColor: "rgba(255,99,132,1)",
+      data: [],
+    }]
+  };
+
+  var options = {
+    maintainAspectRatio: false,
+
+    legend: {
+          display: false
+      },
+
+    scales: {
+      yAxes: [{
+              ticks: {
+                  display: false,
+                  min:0
+              }
+          }],
+      xAxes: [{
+          ticks: {
+            fontSize: 10,
+            maxTicksLimit: 10.1,
+            maxRotation: 0,
+            minRotation: 0
+          }
+        }]
+    },
+
+    elements: {
+        point:{
+            radius: 0
+        }
+    }
+  };
+
+  var daily_chart = new Chart('daily_chart', {
+    type: 'line',
+    options: options,
+    data: data
+  });
+
+  eel.expose(update_daily_chart);
+  function update_daily_chart(_data, _label){
+    daily_chart.data.datasets[0].data = _data;
+    daily_chart.data.labels = _label;
+    daily_chart.update();
+  }
+
+</script>
+
+<!-- 
+<script>
+  const config = {
+  type: 'wordCloud',
+  data: {
+    // text
+    labels: ['Hello', 'world', 'normally', 'you', 'want', 'more', 'words', 'than', 'this'],
+    datasets: [
+      {
+        label: 'DS',
+        // size in pixel
+        data: [90, 80, 70, 60, 50, 40, 30, 20, 10],
+      },
+    ],
+  },
+  options: {},
+};
+</script> -->
+
+</html>
+
+<!--  last_entries_id = "#entries" + num.toString() + " > div"
+eel.say_hello_py(last_entries_id)
+container.querySelectorAll(last_entries_id).forEach(function(node){
+    node.ondblclick=function(){
+      var val = this.innerHTML;
+      var input=document.createElement("input");
+      input.value=val;
+      input.onblur=function(){
+        var val=this.value;
+        this.parentNode.innerHTML=val;
+      }
+      this.innerHTML="";
+      this.appendChild(input);
+      input.focus();
+    }
+  }); -->

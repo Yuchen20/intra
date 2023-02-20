@@ -1,0 +1,961 @@
+food_name,calories,protein,carb,fat
+"1000 Island,Salad Drsng,Local",166.7,0,13,13
+"1000 Island,Salad Drsng,Reglr",375.0,0,12,38
+"40% Bran Flakes,Kellogg's",317.5,14,78,4
+"40% Bran Flakes,Post",317.5,11,78,0
+"Alfalfa Seeds,Sprouted,Raw",30.3,3,3,0
+All-Bran Cereal,246.9,14,74,4
+"Almonds,Slivered",588.9,20,21,52
+"Almonds,Whole",582.0,21,21,53
+"Angelfood Cake,From Mix",237.8,6,54,0
+"Angelfood Cake,From Mix",235.8,6,55,0
+"Apple Juice,Canned",46.4,0,12,0
+Apple Pie,256.1,2,38,11
+Apple Pie,256.3,2,38,11
+"Apples,Dried,Sulfured",242.2,2,66,0
+"Apples,Raw,Peeled,Sliced",59.1,0,15,0
+"Apples,Raw,Unpeeled,2 Per Lb",59.0,0,15,0
+"Apples,Raw,Unpeeled,3 Per Lb",58.0,0,15,0
+"Applesauce,Canned,Sweetened",76.5,0,20,0
+"Applesauce,Canned,Unsweetened",43.0,0,11,0
+"Apricot Nectar,No Added Vit C",55.8,0,14,0
+"Apricot,Canned,Heavy Syrup",83.3,0,21,0
+"Apricot,Canned,Heavy Syrup",82.4,0,21,0
+"Apricots,Canned,Juice Pack",48.4,1,12,0
+"Apricots,Canned,Juice Pack",47.6,1,12,0
+"Apricots,Dried,Cooked,Unswtn",84.0,1,22,0
+"Apricots,Dried,Uncooked",238.5,4,62,1
+"Apricots,Raw",47.2,1,11,0
+"Artichokes,Globe,Cooked,Drn",45.8,2,10,0
+"Asparagus,Ckd Frm Frz,Dr,Sper",25.0,3,5,0
+"Asparagus,Ckd Frm Frz,Drn,Cut",27.8,3,5,1
+"Asparagus,Ckd Frm Raw,Dr,Cut",25.0,3,4,1
+"Asparagus,Ckd Frm Raw,Dr,Sper",25.0,3,5,0
+"Asparagus,Canned,Spears,Nosalt",12.5,1,2,0
+"Asparagus,Canned,Spears,W/Salt",12.5,1,2,0
+"Avocados,California",176.3,2,7,17
+"Avocados,Florida",111.8,2,9,9
+"Bagels,Egg",294.1,10,56,3
+"Bagels,Plain",294.1,10,56,3
+"Baking Powder,Low Sodium",116.3,0,23,0
+"Baking Powder,Strght Phosphat",131.6,0,26,0
+"Baking Powder,Sas,Ca Po4",166.7,0,33,0
+"Baking Powder,Sas,Capo4+Caso4",172.4,0,34,0
+"Baking Pwdr Biscuits,From Mix",339.3,7,50,11
+"Baking Pwdr Biscuits,Homerecpe",357.1,7,46,18
+"Baking Pwdr Biscuits,Refrgdogh",325.0,5,50,10
+"Bamboo Shoots,Canned,Drained",19.1,2,3,1
+Bananas,92.1,1,24,1
+"Bananas,Sliced",93.3,1,23,1
+Barbecue Sauce,62.5,0,12,0
+"Barley,Pearled,Light,Uncookd",350.0,8,79,1
+"Bean Sprouts,Mung,Cookd,Dran",20.2,2,4,0
+"Bean Sprouts,Mung,Raw",28.8,3,6,0
+"Bean With Bacon Soup,Canned",67.2,3,9,2
+"Beans,Dry,Canned,W/Frankfurter",143.1,7,13,7
+"Beans,Dry,Canned,W/Pork+Swtsce",151.0,6,21,5
+"Beans,Dry,Canned,W/Pork+Tomsce",121.6,6,19,3
+"Beef And Vegetable Stew,Hm Rcp",89.8,7,6,4
+"Beef Broth,Boulln,Consm,Cnnd",6.2,1,0,0
+"Beef Gravy,Canned",53.6,4,5,2
+"Beef Heart,Braised",176.5,28,0,6
+"Beef Liver,Fried",217.6,27,8,8
+"Beef Noodle Soup,Canned",34.8,2,4,1
+"Beef Potpie,Home Recipe",245.2,10,19,14
+"Beef Roast,Eye O Rnd,Lean",180.0,29,0,7
+"Beef Roast,Eye O Rnd,Lean+Fat",241.2,27,0,14
+"Beef Roast,Rib,Lean + Fat",370.6,22,0,31
+"Beef Roast,Rib,Lean Only",245.9,28,0,15
+"Beef Steak,Sirloin,Broil,Lean",208.3,31,0,8
+"Beef Steak,Sirloin,Broil,Ln+Ft",282.4,27,0,18
+"Beef,Canned,Corned",217.6,26,0,12
+"Beef,Ckd,Bttm Round,Lean Only",224.4,32,0,10
+"Beef,Ckd,Bttm Round,Lean+ Fat",258.8,29,0,15
+"Beef,Ckd,Chuck Blade,Lean+Fat",382.4,26,0,31
+"Beef,Ckd,Chuck Blade,Leanonly",274.2,31,0,15
+"Beef,Dried,Chipped",201.4,33,0,6
+"Beer,Light",26.8,0,1,0
+"Beer,Regular",41.7,0,4,0
+"Beet Greens,Cooked,Drained",27.8,3,6,0
+"Beets,Canned,Drained,No Salt",32.4,1,7,0
+"Beets,Canned,Drained,W/ Salt",32.4,1,7,0
+"Beets,Cooked,Drained,Diced",32.4,1,6,0
+"Beets,Cooked,Drained,Whole",30.0,1,7,0
+"Black Beans,Dry,Cooked,Drand",131.6,9,24,1
+"Blackberries,Raw",52.1,1,12,1
+"Blackeye Peas,Immatr,Raw,Cked",109.1,8,18,1
+"Blackeye Peas,Immtr,Frzn,Cked",132.4,8,24,1
+"Black-Eyed Peas,Dry,Cooked",76.0,5,14,0
+Blue Cheese,352.7,21,4,28
+Blue Cheese Salad Dressing,500.0,7,7,53
+"Blueberries,Frozen,Sweetened",81.0,0,22,0
+"Blueberries,Frozen,Sweetened",80.4,0,22,0
+"Blueberries,Raw",55.2,1,14,1
+"Blueberry Muffins,Home Recipe",300.0,7,44,11
+"Blueberry Muffins,From Com Mix",311.1,7,49,11
+Blueberry Pie,241.8,2,35,11
+Blueberry Pie,240.5,3,35,11
+Bologna,315.8,12,4,28
+"Boston Brown Bread,W/Whtecrnm",211.1,4,47,2
+"Boston Brown Bread,W/Yllwcrnml",211.1,4,47,2
+"Bouillon,Dehydrtd,Unprepared",250.0,17,17,17
+"Bran Muffins,From Commerl Mix",311.1,7,53,9
+"Bran Muffins,Home Recipe",277.8,7,42,13
+Braunschweiger,359.6,14,4,32
+Brazil Nuts,652.6,14,14,67
+"Bread Stuffing,From Mx,Drytype",357.1,6,36,22
+"Bread Stuffing,From Mx,Moist",206.9,4,20,13
+"Breadcrumbs,Dry,Grated",390.0,13,73,5
+"Broccoli,Frzn,Cooked,Draned",33.3,3,7,0
+"Broccoli,Frzn,Cooked,Draned",27.0,3,5,0
+"Broccoli,Raw",26.5,3,5,1
+"Broccoli,Raw,Cooked,Drained",27.8,3,6,1
+"Broccoli,Raw,Cooked,Drained",29.0,3,6,0
+"Brown And Serve Sausage,Brwnd",384.6,15,0,38
+Brown Gravy From Dry Mix,30.7,1,5,1
+"Brownies W/ Nuts,Frm Home Recp",475.0,5,55,30
+"Brownies W/ Nuts,Frstng,Cmmrcl",400.0,4,64,16
+"Brussels Sprouts,Frzn,Cooked",41.9,4,8,1
+"Brussels Sprouts,Raw,Cooked",38.7,3,8,1
+"Buckwheat Flour,Light,Sifted",346.9,6,80,1
+"Bulgur,Uncooked",352.9,11,76,2
+"Butter,Salted",716.8,1,0,81
+"Butter,Salted",714.3,0,0,79
+"Butter,Salted",700.0,0,0,80
+"Butter,Unsalted",716.8,1,0,81
+"Butter,Unsalted",714.3,0,0,79
+"Butter,Unsalted",700.0,0,0,80
+"Buttermilk,Dried",387.5,34,49,6
+"Buttermilk,Fluid",40.8,3,5,1
+"Cabbage,Chinese,Pak-Choi,Ckd",11.8,2,2,0
+"Cabbage,Chinese,Pe-Tsai,Raw",13.2,1,3,0
+"Cabbage,Common,Cooked,Drned",20.0,1,5,0
+"Cabbage,Common,Raw",21.4,1,6,0
+"Cabbage,Red,Raw",28.6,1,6,0
+"Cabbage,Savoy,Raw",28.6,1,6,0
+"Cake Or Pastry Flour,Sifted",364.6,7,79,1
+Camembert Cheese,302.6,21,0,24
+"Cantaloup,Raw",35.6,1,8,0
+Cap'n Crunch Cereal,423.3,4,81,11
+"Caramels,Plain Or Chocolate",405.6,4,78,11
+Carob Flour,182.1,4,90,0
+"Carrot Cake,Cremchese Frst,Rec",402.0,4,50,21
+"Carrot Cake,Cremchese Frst,Rec",401.0,4,50,22
+"Carrots,Canned,Drn,W/ Salt",24.0,1,5,0
+"Carrots,Canned,Drnd,W/O Salt",24.0,1,5,0
+"Carrots,Cooked From Frozen",37.7,1,8,0
+"Carrots,Cooked From Raw",44.9,1,10,0
+"Carrots,Raw,Grated",40.9,1,10,0
+"Carrots,Raw,Whole",41.7,1,10,0
+"Cashew Nuts,Dry Roastd,Salted",582.0,14,32,46
+"Cashew Nuts,Dry Roastd,Unsalt",573.0,15,33,46
+"Cashew Nuts,Dry Roastd,Unsalt",582.0,14,32,46
+"Cashew Nuts,Dry Roasted,Saltd",573.0,15,33,46
+"Cashew Nuts,Oil Roastd,Salted",576.9,16,28,48
+"Cashew Nuts,Oil Roastd,Salted",582.0,18,28,49
+"Cashew Nuts,Oil Roastd,Unsalt",576.9,16,28,48
+"Cashew Nuts,Oil Roastd,Unsalt",582.0,18,28,49
+Catsup,106.2,2,25,0
+Catsup,100.0,0,27,0
+"Cauliflower,Cooked From Frozn",19.4,2,4,0
+"Cauliflower,Cooked From Raw",24.0,2,5,0
+"Cauliflower,Raw",25.0,2,5,0
+Celery Seed,500.0,0,50,50
+"Celery,Pascal Type,Raw,Piece",16.7,1,3,0
+"Celery,Pascal Type,Raw,Stalk",12.5,0,2,0
+Cheddar Cheese,405.6,25,0,32
+Cheddar Cheese,411.8,24,0,35
+"Chedddar Cheese,Shredded",402.7,25,1,33
+Cheerios Cereal,388.0,14,71,7
+"Cheese Crackers,Plain",500.0,10,60,30
+"Cheese Crackers,Sandwch,Peant",500.0,12,62,25
+"Cheese Sauce W/ Milk,Frm Mix",109.3,6,8,6
+"Cheeseburger,4oz Patty",270.6,15,21,16
+"Cheeseburger,Regular",267.9,13,25,13
+Cheesecake,301.8,5,29,19
+Cheesecake,304.3,5,28,20
+"Cherries,Sour,Red,Cannd,Water",36.9,1,9,0
+"Cherries,Sweet,Raw",73.5,1,16,1
+Cherry Pie,260.8,3,38,11
+Cherry Pie,259.5,3,39,11
+"Chestnuts,European,Roasted",244.8,3,53,2
+"Chicken A La King,Home Recipe",191.8,11,5,14
+"Chicken And Noodles,Home Recp",152.1,9,11,8
+"Chicken Chow Mein,Canned",38.0,3,7,0
+"Chicken Chow Mein,Home Recipe",102.0,12,4,4
+Chicken Frankfurter,255.6,13,7,20
+Chicken Gravy From Dry Mix,32.7,1,5,1
+"Chicken Gravy,Canned",79.8,2,5,6
+"Chicken Liver,Cooked",150.0,25,0,5
+"Chicken Noodle Soup,Canned",31.1,2,4,1
+"Chicken Noodle Soup,Dehyd,Prpd",21.3,1,3,1
+"Chicken Potpie,Home Recipe",234.9,10,18,13
+"Chicken Rice Soup,Canned",24.9,2,3,1
+"Chicken Roll,Light",157.9,19,2,7
+"Chicken,Canned,Boneless",165.5,22,0,8
+"Chicken,Fried,Batter,Breast",260.7,25,9,13
+"Chicken,Fried,Batter,Drmstck",270.8,22,8,15
+"Chicken,Fried,Flour,Breast",224.5,32,2,9
+"Chicken,Fried,Flour,Drmstck",244.9,27,2,14
+"Chicken,Roasted,Breast",162.8,31,0,3
+"Chicken,Roasted,Drumstick",170.5,27,0,5
+"Chicken,Stewed,Light + Dark",178.6,27,0,6
+"Chickpeas,Cooked,Drained",165.6,9,28,2
+"Chili Con Carne W/ Beans,Cnnd",133.3,7,12,6
+Chili Powder,384.6,0,38,0
+"Chocolate Chip Cookies,Commrcl",428.6,5,67,21
+"Chocolate Chip Cookies,Hme Rcp",462.5,5,65,28
+"Chocolate Chip Cookies,Refrig",468.8,4,67,23
+"Chocolate Milk,Lowfat 1%",64.0,3,10,1
+"Chocolate Milk,Lowfat 2%",72.0,3,10,2
+"Chocolate Milk,Regular",84.0,3,10,3
+"Chocolate,Bitter Ot Baking",511.5,11,28,53
+"Chop Suey W/ Beef + Pork,Hmrcp",120.0,10,5,7
+Cinnamon,217.4,0,87,0
+"Clam Chowder,Manhattan,Cannd",32.8,2,5,1
+"Clam Chowder,New Eng,W/ Milk",66.5,4,7,3
+"Clams,Canned,Drained",100.0,15,2,2
+"Clams,Raw",76.5,13,2,1
+Club Soda,0.0,0,0,0
+"Coca Pwdr W/O Nofat Drymlk,Prd",84.9,3,11,3
+Coca Pwdr W/O Nonfat Dry Milk,357.1,5,90,5
+"Cocoa Pwdr W/ Nofat Drmlk,Prpd",48.5,1,11,0
+Cocoa Pwdr With Nonfat Drymilk,352.7,11,78,4
+"Coconut,Dried,Sweetnd,Shredd",505.4,3,47,35
+"Coconut,Raw,Piece",355.6,2,16,33
+"Coconut,Raw,Shredded",356.2,4,15,34
+"Coffee,Brewed",0.0,0,0,0
+"Coffee,Instant,Prepared",0.0,0,1,0
+"Coffeecake,Crumb,From Mix",322.1,6,52,10
+"Coffeecake,Crumb,From Mix",319.4,7,53,10
+"Cola,Diet,Aspartame Only",0.0,0,0,0
+"Cola,Diet,Asprtame + Sacchrn",0.0,0,0,0
+"Cola,Diet,Saccharin Only",0.0,0,0,0
+"Cola,Regular",43.4,0,11,0
+"Collards,Cooked From Frozen",35.3,3,7,1
+"Collards,Cooked From Raw",13.2,1,3,0
+"Cooked Salad Drssing,Home Rcp",156.2,6,12,12
+Corn Chips,546.7,7,56,32
+"Corn Flakes,Kellogg's",388.0,7,85,0
+"Corn Flakes,Toasties",388.0,7,85,0
+"Corn Grits,Cooked,Instant",58.4,1,13,0
+"Corn Grits,Ckd,Reg,Whte,Nosalt",59.9,1,13,0
+"Corn Grits,Ckd,Reg,Whte,W/Salt",59.9,1,13,0
+"Corn Grits,Ckd,Reg,Yllw,Nosalt",59.9,1,13,0
+"Corn Grits,Ckd,Reg,Yllw,W/Salt",59.9,1,13,0
+"Corn Muffins,From Commerl Mix",322.2,7,49,13
+"Corn Muffins,Home Recipe",322.2,7,47,11
+Corn Oil,883.0,0,0,100
+Corn Oil,892.9,0,0,100
+"Corn,Cnnd,Crm Stl,Whit,No Sal",72.3,2,18,0
+"Corn,Cnnd,Crm Stl,Whit,W/Salt",72.3,2,18,0
+"Corn,Cnnd,Crm Stl,Yllw,No Sal",72.3,2,18,0
+"Corn,Cnnd,Crm Stl,Yllw,W/Salt",72.3,2,18,0
+"Corn,Cooked Frm Frozn,White",95.2,3,22,0
+"Corn,Cooked Frm Frozn,White",81.8,3,21,0
+"Corn,Cooked Frm Frozn,Yellow",95.2,3,22,0
+"Corn,Cooked Frm Frozn,Yellow",81.8,3,21,0
+"Corn,Cooked From Raw,White",110.4,4,25,1
+"Corn,Cooked From Raw,Yellow",110.4,4,25,1
+"Corn,Cnnd,Whl Krnl,Whte,No Sal",78.6,2,20,0
+"Corn,Cnnd,Whl Krnl,Whte,W/Salt",78.6,2,20,0
+"Corn,Cnnd,Whl Krnl,Yllw,No Sal",78.6,2,20,0
+"Corn,Cnnd,Whl Krnl,Yllw,W/Salt",78.6,2,20,0
+"Cornmeal,Bolted,Dry Form",360.7,9,75,3
+"Cornmeal,Degermed,Enrched,Cook",50.0,1,11,0
+"Cornmeal,Degermed,Enriched,Dry",362.3,8,78,1
+"Cornmeal,Whole-Grnd,Unbolt,Dry",356.6,9,74,4
+"Cottage Cheese,Cremd,Lrge Curd",104.4,12,3,4
+"Cottage Cheese,Cremd,Smll Curd",102.4,12,3,4
+"Cottage Cheese,Cremd,W/Fruit",123.9,10,13,4
+"Cottage Cheese,Lowfat 2%",90.7,14,4,2
+"Cottage Cheese,Uncreamed",86.2,17,2,1
+"Cr Of Chicken Soup W/ H20,Cnnd",47.1,1,4,3
+"Cr Of Chicken Soup W/ Mlk,Cnnd",76.6,3,6,4
+"Cr Of Mushrom Soup W/ H2o,Cnnd",53.3,1,4,4
+"Cr Of Mushrom Soup W/ Mlk,Cnnd",82.7,2,6,6
+"Crabmeat,Canned",100.0,17,1,2
+Cracked-Wheat Bread,262.1,9,50,4
+Cracked-Wheat Bread,260.0,8,48,4
+"Cracked-Wheat Bread,Toasted",309.5,10,57,5
+Cranberry Juice Cocktal W/Vitc,57.3,0,15,0
+"Cranberry Sauce,Canned,Swtnd",151.6,0,39,0
+Cream Cheese,352.7,7,4,35
+"Cream Of Wheat,Ckd,Mix N Eat",70.4,2,15,0
+Creme Pie,297.8,2,39,15
+Creme Pie,299.3,2,39,15
+"Crm Wheat,Ckd,Quick,No Salt",57.4,2,12,0
+"Crm Wheat,Ckd,Quick,W/  Salt",57.4,2,12,0
+"Crm Wheat,Ckd,Reg,Inst,No Salt",57.4,2,12,0
+"Crm Wheat,Ckd,Reg,Inst,W/Salt",57.4,2,12,0
+Croissants,412.3,9,47,21
+"Cucumber,W/ Peel",17.9,0,4,0
+Curry Powder,250.0,0,50,0
+Custard Pie,218.1,6,23,11
+Custard Pie,217.1,6,24,11
+"Custard,Baked",115.1,5,11,6
+"Dandelion Greens,Cooked,Drnd",33.3,2,7,1
+"Danish Pastry,Fruit",361.5,6,43,20
+"Danish Pastry,Plain,No Nuts",383.8,6,45,21
+"Danish Pastry,Plain,No Nuts",386.0,7,46,21
+"Danish Pastry,Plain,No Nuts",388.0,7,46,21
+Dates,277.1,2,73,0
+"Dates,Chopped",275.3,2,74,1
+"Devil's Food Cake,Chocfrst,Fmx",339.2,4,58,12
+"Devil's Food Cake,Chocfrst,Fmx",340.6,4,58,12
+"Devil's Food Cake,Chocfrst,Fmx",342.9,6,57,11
+"Doughnuts,Cake Type,Plain",420.0,6,48,24
+"Doughnuts,Yeast-Leavend,Glzed",391.7,7,43,22
+"Duck,Roasted,Flesh Only",201.4,24,0,11
+Eggnog,133.9,4,13,7
+"Eggplant,Cooked,Steamed",26.0,1,6,0
+"Eggs,Cooked,Fried",195.7,13,2,15
+"Eggs,Cooked,Hard-Cooked",150.0,12,2,10
+"Eggs,Cooked,Poached",150.0,12,2,10
+"Eggs,Cooked,Scrambled/Omelet",163.9,11,2,11
+"Eggs,Raw,White",45.5,12,0,0
+"Eggs,Raw,Whole",150.0,12,2,10
+"Eggs,Raw,Yolk",352.9,18,0,29
+Enchilada,102.2,9,10,7
+"Endive,Curly,Raw",20.0,2,4,0
+"Eng Muffin,Egg,Cheese,Bacon",260.9,13,22,13
+"English Muffins,Plain",245.6,9,47,2
+"English Muffins,Plain,Toastd",280.0,10,54,2
+"Evaporated Milk,Skim,Canned",78.4,7,11,0
+"Evaporated Milk,Whole,Canned",134.9,7,10,8
+"Fats,Cooking/Vegetbl Shorteng",882.9,0,0,100
+"Fats,Cooking/Vegetbl Shorteng",884.6,0,0,100
+Feta Cheese,264.6,14,4,21
+Fig Bars,375.0,4,75,7
+"Figs,Dried",254.0,3,65,1
+"Filberts,(Hazelnuts) Chopped",630.4,13,16,63
+"Filberts,(Hazelnuts) Chopped",634.9,14,14,63
+"Fish Sandwich,Lge,W/O Cheese",276.5,11,24,16
+"Fish Sandwich,Reg,W/ Cheese",300.0,11,28,16
+"Fish Sticks,Frozen,Reheated",250.0,21,14,11
+"Flounder Or Sole,Baked,Buttr",141.2,19,0,7
+"Flounder Or Sole,Baked,Margrn",141.2,19,0,7
+"Flounder Or Sole,Baked,W/Ofat",94.1,20,0,1
+"Fondant,Uncoated",370.4,0,95,0
+"Frankfurter,Cooked",322.2,11,2,29
+French Bread,285.7,9,51,3
+French Or Vienna Bread,279.7,9,51,4
+"French Salad Dressing,Localor",156.2,0,12,12
+"French Salad Dressing,Regular",531.2,0,6,56
+"French Toast,Home Recipe",238.5,9,26,11
+"Fried Pie,Apple",300.0,2,36,16
+"Fried Pie,Cherry",294.1,2,38,16
+Froot Loops Cereal,388.0,7,88,4
+"Fruit Cocktail,Cnnd,Heavysyrup",72.5,0,19,0
+"Fruit Cocktail,Cnnd,Juice Pack",46.4,0,12,0
+"Fruit Punch Drink,Canned",44.7,0,12,0
+"Fruitcake,Dark,From recipe",381.0,5,58,17
+"Fruitcake,Dark,From recipe",383.7,5,58,16
+"Fudge,Chocolate,Plain",405.6,4,74,11
+Garlic Powder,357.1,0,71,0
+"Gelatin Dessert,Prepared",58.3,2,14,0
+"Gelatin,Dry",357.1,86,0,0
+"Gin,Rum,Vodka,Whisky 80-Proof",226.2,0,0,0
+"Gin,Rum,Vodka,Whisky 86-Proof",250.0,0,0,0
+"Gin,Rum,Vodka,Whisky 90-Proof",261.9,0,0,0
+Ginger Ale,34.2,0,9,0
+"Gingerbread Cake,From Mix",276.3,3,51,7
+"Gingerbread Cake,From Mix",277.8,3,51,6
+Golden Grahams Cereal,388.0,7,85,4
+"Graham Cracker,Plain",428.6,7,79,7
+"Grape Drink,Canned",53.5,0,14,0
+"Grape Juice,Canned",61.3,0,15,0
+Grape Soda,48.4,0,12,0
+"Grapefrt Jce,Frzn,Cncn,Unswten",144.9,2,35,0
+"Grapefrt Jce,Frzn,Dltd,Unswten",40.5,0,10,0
+"Grapefruit Juice,Canned,Swtnd",46.0,0,11,0
+"Grapefruit Juice,Canned,Unswt",38.5,0,9,0
+"Grapefruit Juice,Raw",38.5,0,9,0
+"Grapefruit,Canned,Syrup Pack",59.1,0,15,0
+"Grapefruit,Raw,Pink",33.3,1,8,0
+"Grapefruit,Raw,White",33.3,1,8,0
+"Grapejce,Frzn,Concen,Swtnd,W/C",178.2,0,44,0
+"Grapejce,Frzn,Dilutd,Swtnd,W/C",50.0,0,13,0
+Grape-Nuts Cereal,352.7,11,81,0
+"Grapes,European,Raw,Thompsn",70.0,0,18,0
+"Grapes,European,Raw,Tokay",70.2,0,18,0
+"Gravy And Turkey,Frozen",66.9,6,5,3
+"Great Northn Beans,Dry,Ckd,Drn",116.7,8,21,1
+"Ground Beef,Broiled,Lean",270.6,25,0,19
+"Ground Beef,Broiled,Regular",288.2,24,0,21
+Gum Drops,352.7,0,88,0
+"Haddock,Breaded,Fried",205.9,20,8,11
+"Half And Half,Cream",130.2,3,4,12
+"Half And Half,Cream",133.3,0,7,13
+"Halibut,Broiled,Butter,Lemju",164.7,24,0,7
+"Hamburger,4oz Patty",255.7,14,22,12
+"Hamburger,Regular",250.0,12,29,11
+Hard Candy,388.0,0,99,0
+"Herring,Pickled",223.5,20,0,15
+"Hollandaise Sce,W/ H2o,Frm Mx",92.7,2,5,8
+Honey,303.8,0,82,0
+Honey,309.5,0,81,0
+Honey Nut Cheerios Cereal,370.4,11,81,4
+"Honeydew Melon,Raw",34.9,1,9,0
+"Ice Cream,Vanlla,Regulr 11%",202.5,4,24,11
+"Ice Cream,Vanlla,Regulr 11%",203.0,4,24,11
+"Ice Cream,Vanlla,Regulr 11%",200.0,4,24,10
+"Ice Cream,Vanlla,Rich 16% Ft",236.1,3,22,16
+"Ice Cream,Vanlla,Rich 16% Ft",236.5,3,22,16
+"Ice Cream,Vanlla,Soft Serve",216.8,4,22,13
+"Ice Milk,Vanilla,4% Fat",140.3,4,22,4
+"Ice Milk,Vanilla,4% Fat",141.2,4,22,5
+"Ice Milk,Vanilla,Softserv 3%",128.6,5,22,3
+"Imitation Creamers,Liquid Frz",133.3,0,13,7
+"Imitation Creamers,Powdered",500.0,0,50,50
+"Imitation Whipped Topping,Frzn",320.0,1,23,25
+"Imitation Whipped Topping,Frzn",375.0,0,25,25
+Imitatn Sour Dressing,176.6,3,5,17
+Imitatn Sour Dressing,166.7,0,8,17
+"Imitatn Whipd Toping,Pressrzd",264.3,1,16,23
+"Imitatn Whipd Toping,Pressrzd",250.0,0,25,25
+"Imitatn Whipd Toping,Pwdrd,Prp",187.5,4,16,12
+"Imitatn Whipd Toping,Pwdrd,Prp",250.0,0,25,0
+Italian Bread,276.4,9,56,1
+Italian Bread,283.3,10,57,0
+"Italian Salad Dressing,Localor",33.3,0,13,0
+"Italian Salad Dressing,Regular",533.3,0,7,60
+Jams And Preserves,275.0,0,70,0
+Jams And Preserves,285.7,0,71,0
+Jellies,277.8,0,72,0
+Jellies,285.7,0,71,0
+Jelly Beans,370.4,0,92,0
+"Jerusalem-Artichoke,Raw",76.7,2,17,0
+"Kale,Cooked From Frozen",30.8,3,5,1
+"Kale,Cooked From Raw",30.8,2,5,1
+"Kiwifruit,Raw",59.2,1,14,0
+"Kohlrabi,Cooked,Drained",30.3,2,7,0
+"Lamb,Rib,Roasted,Lean + Fat",370.6,21,0,31
+"Lamb,Rib,Roasted,Lean Only",228.1,26,0,12
+"Lamb,Chops,Arm,Braised,Lean",281.2,35,0,15
+"Lamb,Chops,Arm,Braised,Lean+Ft",349.2,32,0,24
+"Lamb,Chops,Loin,Broil,Lean",218.8,30,0,9
+"Lamb,Chops,Loin,Broil,Lean+Fat",293.8,28,0,20
+"Lamb,Leg,Roasted,Lean Only",191.8,27,0,8
+"Lamb,Leg,Roasted,Lean+ Fat",241.2,26,0,15
+Lard,902.4,0,0,100
+Lard,884.6,0,0,100
+"Lemon Juice,Canned",20.5,0,7,0
+"Lemon Juice,Canned",33.3,0,7,0
+"Lemon Juice,Raw",24.6,0,9,0
+"Lemon Juice,Frzn,Single-Strngh",22.5,0,7,0
+Lemon Meringue Pie,254.8,4,38,10
+Lemon Meringue Pie,253.6,4,38,10
+"Lemonade,Concen,Frzen,Diluted",43.2,0,11,0
+"Lemonade,Concentrate,Frz,Undil",194.1,0,51,0
+Lemon-Lime Soda,41.7,0,10,0
+"Lemons,Raw",25.9,2,9,0
+"Lentils,Dry,Cooked",107.5,8,19,0
+"Lettuce,Butterhead,Raw,Head",12.3,1,2,0
+"Lettuce,Butterhead,Raw,Leave",0.0,0,0,0
+"Lettuce,Crisphead,Raw,Head",13.0,1,2,0
+"Lettuce,Crisphead,Raw,Pieces",9.1,2,2,0
+"Lettuce,Crisphead,Raw,Wedge",14.8,1,2,0
+"Lettuce,Looseleaf",17.9,2,4,0
+"Light,Coffee Or Table Cream",195.8,2,4,19
+"Light,Coffee Or Table Cream",200.0,0,7,20
+"Lima Beans,Dry,Cooked,Draned",136.8,8,26,1
+"Lima Beans,Baby,Frzn,Cked,Drn",105.6,7,19,1
+"Lima Beans,Thick Seed,Frzn,Ckd",100.0,6,19,1
+"Lime Juice,Raw",26.4,0,9,0
+"Lime Juice,Canned",20.3,0,7,0
+"Limeade,Concen,Frozen,Diluted",40.5,0,11,0
+"Limeade,Concentrate,Frzn,Undil",188.1,0,50,0
+Lucky Charms Cereal,388.0,11,81,4
+"Macadamia Nuts,Oilrstd,Salted",716.4,7,13,77
+"Macadamia Nuts,Oilrstd,Salted",723.1,7,14,78
+"Macadamia Nuts,Oilrstd,Unsalt",716.4,7,13,77
+"Macadamia Nuts,Oilrstd,Unsalt",723.1,7,14,78
+"Macaroni And Cheese,Canned",95.8,4,11,4
+"Macaroni And Cheese,Home Rcpe",215.0,8,20,11
+"Macaroni,Cooked,Firm",146.2,5,30,1
+"Macaroni,Cooked,Tender,Hot",110.7,4,23,1
+"Macaroni,Cooked,Tender,Cold",109.5,4,23,0
+"Malted Milk,Chocolate,Powder",404.8,5,86,5
+"Malted Milk,Chocolate,Pwdrppd",88.7,3,11,3
+"Malted Milk,Natural,Powder",404.8,14,71,10
+"Malted Milk,Natural,Pwdr Pprd",88.7,4,10,4
+"Malt-O-Meal,W/O Salt",50.0,2,11,0
+"Malt-O-Meal,With Salt",50.0,2,11,0
+"Mangos,Raw",65.2,0,17,0
+"Margarine,Imitation 40% Fat",345.8,0,0,39
+"Margarine,Imitation 40% Fat",357.1,0,0,36
+"Margarine,Regulr,Hard,80% Fat",716.8,1,1,81
+"Margarine,Regulr,Hard,80% Fat",714.3,0,0,79
+"Margarine,Regulr,Hard,80% Fat",700.0,0,0,80
+"Margarine,Regulr,Soft,80% Fat",715.9,1,0,81
+"Margarine,Regulr,Soft,80% Fat",714.3,0,0,79
+"Margarine,Spread,Hard,60% Fat",539.8,1,0,61
+"Margarine,Spread,Hard,60% Fat",535.7,0,0,64
+"Margarine,Spread,Hard,60% Fat",500.0,0,0,60
+"Margarine,Spread,Soft,60% Fat",539.6,0,0,61
+"Margarine,Spread,Soft,60% Fat",535.7,0,0,64
+Marshmallows,317.5,4,81,0
+Mayonnaise Type Salad Dressing,400.0,0,27,33
+"Mayonnaise,Imitation",233.3,0,13,20
+"Mayonnaise,Regular",714.3,0,0,79
+"Melba Toast,Plain",400.0,20,80,0
+"Milk Chocolate Candy,Plain",511.5,7,56,32
+"Milk Chocolate Candy,W/ Almond",529.1,11,53,35
+"Milk Chocolate Candy,W/ Penuts",546.7,14,46,39
+"Milk Chocolate Candy,W/ Rice C",493.8,7,63,25
+"Milk,Lofat,1%,Added Solids",42.9,4,5,1
+"Milk,Lofat,1%,No Addedsolid",41.0,3,5,1
+"Milk,Lofat,2%,Added Solids",51.0,4,5,2
+"Milk,Lofat,2%,No Addedsolid",49.2,3,5,2
+"Milk,Skim,Added Milk Solids",36.7,4,5,0
+"Milk,Skim,No Added Milksolid",34.7,3,5,0
+"Milk,Whole,3.3% Fat",61.5,3,5,3
+"Minestrone Soup,Canned",33.2,2,5,1
+Miso,170.3,11,24,5
+Mixed Grain Bread,256.6,10,47,4
+Mixed Grain Bread,260.0,8,48,4
+"Mixed Grain Bread,Toasted",282.6,9,52,4
+"Mixed Nuts W/ Peants,Dry,Saltd",599.6,18,25,53
+"Mixed Nuts W/ Peants,Dry,Unslt",599.6,18,25,53
+"Mixed Nuts W/ Peants,Oil,Saltd",617.3,18,21,56
+"Mixed Nuts W/ Peants,Oil,Unslt",617.3,18,21,56
+"Molasses,Cane,Blackstrap",212.5,0,55,0
+"Mozzarella Cheese,Whole Milk",282.2,21,4,21
+"Mozzarella Chese,Skim,Lomoist",282.2,28,4,18
+Muenster Cheese,370.4,25,0,32
+"Mushroom Gravy,Canned",50.4,1,5,3
+"Mushrooms,Canned,Drnd,W/Salt",22.4,2,5,0
+"Mushrooms,Cooked,Drained",25.6,2,5,1
+"Mushrooms,Raw",28.6,1,4,0
+"Mustard Greens,Cooked,Draned",14.3,2,2,0
+"Mustard,Prepared,Yellow",100.0,0,0,0
+Nature Valley Granola Cereal,440.9,11,67,18
+"Nectarines,Raw",47.8,1,12,1
+"Nonfat Dry Milk,Instantized",357.1,35,52,1
+"Nonfat Dry Milk,Instantized",360.3,35,51,0
+"Noodles,Chow Mein,Canned",488.9,13,58,24
+"Noodles,Egg,Cooked",125.0,4,23,1
+Oatmeal Bread,252.2,8,47,4
+Oatmeal Bread,260.0,8,48,4
+"Oatmeal Bread,Toasted",282.6,9,52,4
+Oatmeal W/ Raisins Cookies,471.2,6,69,19
+"Oatmeal,Ckd,Instnt,Flvrd,Fortf",97.6,3,19,1
+"Oatmeal,Ckd,Instnt,Plain,Fortf",59.3,2,10,1
+"Oatmeal,Ckd,Rg,Qck,Inst,W/Osal",62.0,3,11,1
+"Oatmeal,Ckd,Rg,Qck,Inst,W/Salt",62.0,3,11,1
+"Ocean Perch,Breaded,Fried",217.6,19,8,13
+"Okra Pods,Cooked",29.4,2,7,0
+Olive Oil,884.3,0,0,100
+Olive Oil,892.9,0,0,100
+"Olives,Canned,Green",115.4,0,0,15
+"Olives,Canned,Ripe,Mission",166.7,0,0,22
+Onion Powder,238.1,0,95,0
+"Onion Rings,Breaded,Frzn,Prpd",400.0,5,40,25
+"Onion Soup,Dehydratd,Prepred",10.9,1,2,0
+"Onion Soup,Dehydrtd,Unprpred",285.7,14,57,0
+"Onions,Raw,Chopped",34.4,1,8,0
+"Onions,Raw,Cooked,Drained",28.6,1,6,0
+"Onions,Raw,Sliced",34.8,1,7,0
+"Onions,Spring,Raw",33.3,3,7,0
+"Orange + Grapefruit Juce,Cannd",42.5,0,10,0
+"Orange Juice,Canned",42.2,0,10,0
+"Orange Juice,Chilled",44.2,1,10,0
+"Orange Juice,Raw",44.4,1,10,0
+"Orange Juice,Frozen Concentrte",159.6,2,38,0
+"Orange Juice,Frzn,Cncn,Diluted",44.2,1,11,0
+Orange Soda,48.4,0,12,0
+"Oranges,Raw",45.8,1,11,0
+"Oranges,Raw,Sections",47.2,1,12,0
+Oregano,333.3,0,67,0
+"Oysters,Breaded,Fried",200.0,11,11,11
+"Oysters,Raw",66.7,8,3,2
+"Pancakes,Buckwheat,From Mix",203.7,7,22,7
+"Pancakes,Plain,From Mix",222.2,7,30,7
+"Pancakes,Plain,Home Recipe",222.2,7,33,7
+"Papayas,Raw",46.4,1,12,0
+Paprika,238.1,0,48,0
+"Parmesan Cheese,Grated",455.0,42,4,30
+"Parmesan Cheese,Grated",500.0,40,0,40
+"Parmesan Cheese,Grated",458.6,42,4,32
+"Parsley,Freeze-Dried",0.0,0,0,0
+"Parsley,Raw",50.0,0,10,0
+"Parsnips,Cooked,Drained",80.1,1,19,0
+"Pasterzd Proces Cheese,Swiss",335.1,25,4,25
+"Pasterzd Proces Cheese,Americn",370.4,21,0,32
+"Pasterzd Proces Chese Food,Amr",335.1,21,7,25
+"Pasterzd Proces Chese Spred,Am",282.2,18,7,21
+"Pea Beans,Dry,Cooked,Drained",118.4,8,21,1
+"Pea,Green,Soup,Canned",66.0,4,11,1
+Peach Pie,255.0,3,38,11
+Peach Pie,256.3,3,38,11
+"Peaches,Canned,Heavy Syrup",74.2,0,20,0
+"Peaches,Canned,Heavy Syrup",74.1,0,20,0
+"Peaches,Canned,Juice Pack",44.4,1,12,0
+"Peaches,Canned,Juice Pack",45.5,0,12,0
+"Peaches,Dried",237.5,4,61,1
+"Peaches,Dried,Cooked,Unswetnd",77.5,1,20,0
+"Peaches,Frozen,Swetned,W/Vitc",93.3,1,24,0
+"Peaches,Frozen,Swetned,W/Vitc",94.0,1,24,0
+"Peaches,Raw",40.2,1,11,0
+"Peaches,Raw,Sliced",44.1,1,11,0
+Peanut Butter,593.8,31,19,50
+"Peanut Butter Cookie,Home Recp",510.4,8,58,29
+Peanut Oil,884.3,0,0,100
+Peanut Oil,892.9,0,0,100
+"Peanuts,Oil Roasted,Salted",579.3,27,19,49
+"Peanuts,Oil Roasted,Salted",582.0,28,18,49
+"Peanuts,Oil Roasted,Unsalted",579.3,27,19,49
+"Peanuts,Oil Roasted,Unsalted",582.0,28,18,49
+"Pears,Canned,Heavy Syrup",74.5,0,19,0
+"Pears,Canned,Heavy Syrup",75.9,0,19,0
+"Pears,Canned,Juice Pack",50.4,0,13,0
+"Pears,Canned,Juice Pack",51.9,0,13,0
+"Pears,Raw,Bartlett",60.2,1,15,1
+"Pears,Raw,Bosc",60.3,1,15,1
+"Pears,Raw,D'anjou",60.0,0,15,0
+"Peas,Edible Pod,Cooked,Drned",40.6,3,7,0
+"Peas,Green,Cnnd,Drnd,W/ Salt",67.6,5,12,1
+"Peas,Green,Cnnd,Drnd,W/O Salt",67.6,5,12,1
+"Peas,Split,Dry,Cooked",115.0,8,21,0
+"Peas,Grn,Frozen Cooked,Draned",78.1,5,14,0
+Pecan Pie,418.2,5,51,23
+Pecan Pie,416.7,5,51,23
+"Pecans,Halves",666.7,7,19,68
+"Pecans,Halves",670.2,7,18,67
+"Pepper,Black",238.1,0,48,0
+"Peppers,Hot Chili,Raw,Green",44.4,2,9,0
+"Peppers,Hot Chili,Raw,Red",44.4,2,9,0
+"Peppers,Sweet,Cooked,Green",20.5,0,4,0
+"Peppers,Sweet,Cooked,Red",20.5,0,4,0
+"Peppers,Sweet,Raw,Green",27.0,1,5,0
+"Peppers,Sweet,Raw,Red",27.0,1,5,0
+Pepper-Type Soda,43.4,0,11,0
+"Pickles,Cucumber,Dill",7.7,0,2,0
+"Pickles,Cucumber,Fresh Pack",66.7,0,20,0
+"Pickles,Cucumber,Swt Gherkin",133.3,0,33,0
+"Piecrust,From Mix",464.1,6,44,29
+"Piecrust,From Home Recipe",500.0,6,44,33
+Pine Nuts,564.4,11,18,60
+"Pineapple Juice,Canned,Unswtn",56.0,0,14,0
+"Pineapple,Canned,Heavy Syrup",78.4,0,20,0
+"Pineapple,Canned,Heavy Syrup",77.6,0,21,0
+"Pineapple,Canned,Juice Pack",60.0,0,16,0
+"Pineapple,Canned,Juice Pack",60.3,0,16,0
+"Pineapple,Raw,Diced",48.4,1,12,1
+Pineapple-Grapefruit Juicedrnk,48.1,0,12,0
+"Pinto Beans,Dry,Cooked,Drained",147.2,8,27,1
+Pistachio Nuts,582.0,21,25,49
+Pita Bread,275.0,10,55,2
+"Pizza,Cheese",241.7,12,32,8
+"Plantains,Cooked",116.9,1,31,0
+"Plantains,Raw",122.9,1,32,1
+"Plums,Canned,Heavy Syrup",89.1,0,23,0
+"Plums,Canned,Heavy Syrup",90.2,0,23,0
+"Plums,Canned,Juice Pack",57.5,0,15,0
+"Plums,Canned,Juice Pack",57.9,0,15,0
+"Plums,Raw,1-1/2-In Diam",53.6,0,14,0
+"Plums,Raw,2-1/8-In Diam",53.0,2,14,0
+"Popcorn,Air-Popped,Unsalted",375.0,12,75,0
+"Popcorn,Popped,Veg Oil,Saltd",500.0,9,55,27
+"Popcorn,Sugar Syrup Coated",385.7,6,86,3
+Popsicle,73.7,0,19,0
+"Pork Chop,Loin,Broil,Lean",229.2,32,0,11
+"Pork Chop,Loin,Broil,Len+Ft",316.1,28,0,22
+"Pork Chop,Loin,Panfry,Lean",268.7,28,0,16
+"Pork Chop,Loin,Panfry,Lean+Ft",376.4,24,0,30
+"Pork Fresh Ham,Roastd,Lean",222.2,28,0,11
+"Pork Fresh Ham,Roastd,Lean+Ft",294.1,25,0,21
+"Pork Fresh Rib,Roastd,Lean",246.5,28,0,14
+"Pork Fresh Rib,Roastd,Lean+Ft",317.6,25,0,24
+"Pork Shoulder,Braisd,Lean",246.3,33,0,12
+"Pork Shoulder,Braisd,Lean+Fat",347.1,27,0,26
+"Pork,Cured,Bacon,Regul,Cked",578.9,32,0,47
+"Pork,Cured,Bacon,Canadn,Cked",184.8,24,2,9
+"Pork,Cured,Ham,Canned,Roast",164.7,21,0,8
+"Pork,Cured,Ham,Rosted,Lean",154.4,25,0,6
+"Pork,Cured,Ham,Rosted,Ln+Ft",241.2,21,0,16
+"Pork,Link,Cooked",384.6,23,0,31
+"Pork,Luncheon Meat,Canned",333.3,12,2,31
+"Pork,Luncheon Meat,Choppd Ham",226.2,17,0,17
+"Pork,Luncheon Meat,Ckd Ham,Ln",131.6,19,2,5
+"Pork,Luncheon Meat,Ckd Ham,Rg",184.2,18,4,11
+Potato Chips,525.0,5,50,35
+Potato Salad Made W/ Mayonnais,144.0,3,11,8
+"Potatoes,Au Gratin,From Mix",93.9,2,13,4
+"Potatoes,Au Gratin,Home Recp",132.7,5,11,8
+"Potatoes,Baked Flesh Only",92.9,2,22,0
+"Potatoes,Baked With Skin",108.9,2,25,0
+"Potatoes,Boiled,Peeled After",88.2,2,20,0
+"Potatoes,Boiled,Peeled Befor",85.2,1,20,0
+"Potatoes,Hashed Brown,Fr Frzn",217.9,3,28,12
+"Potatoes,Mashed,Frm Dehydrted",111.9,2,15,6
+"Potatoes,Mashed,Recpe,Mlk+Mar",107.1,2,17,4
+"Potatoes,Mashed,Recpe,W/ Milk",76.2,2,18,0
+"Potatoes,Scalloped,From Mix",93.9,2,13,4
+"Potatoes,Scalloped,Home Recp",85.7,3,11,4
+"Potatoes,French-Frd,Frzn,Fried",320.0,4,40,16
+"Potatoes,French-Frd,Frzn,Oven",220.0,4,34,8
+"Pound Cake,Commercial",387.0,5,51,19
+"Pound Cake,Commercial",379.3,7,52,17
+"Pound Cake,From Home Recipe",394.0,6,52,18
+"Pound Cake,From Home Recipe",400.0,7,50,17
+"Pretzels,Stick",333.3,0,67,0
+"Pretzels,Twisted,Dutch",406.2,12,81,6
+"Pretzels,Twisted,Thin",400.0,10,80,3
+Product 19 Cereal,388.0,11,85,0
+Provolone Cheese,352.7,25,4,28
+"Prune Juice,Canned",70.3,1,18,0
+"Prunes,Dried",234.7,2,63,0
+"Prunes,Dried,Cooked,Unswtned",106.1,1,28,0
+"Pudding,Choc,Cooked From Mix",115.4,3,19,3
+"Pudding,Choc,Instant,Fr Mix",119.2,3,21,3
+"Pudding,Chocolate,Canned",144.4,2,21,8
+"Pudding,Rice,From Mix",117.4,3,20,3
+"Pudding,Tapioca,Canned",112.7,2,20,4
+"Pudding,Tapioca,From Mix",111.5,3,19,3
+"Pudding,Vanilla,Canned",154.9,1,23,7
+"Pudding,Vnlla,Cooked From Mix",111.5,3,19,3
+"Pudding,Vnlla,Instant Frm Mix",115.4,3,21,3
+Pumpernickel Bread,255.5,9,48,4
+Pumpernickel Bread,250.0,9,50,3
+"Pumpernickel Bread,Toasted",275.9,10,55,3
+Pumpkin And Squash Kernels,546.7,25,18,46
+Pumpkin Pie,211.0,4,25,11
+Pumpkin Pie,210.5,4,24,11
+"Pumpkin,Canned",34.7,1,8,0
+"Pumpkin,Cooked From Raw",20.4,1,5,0
+Quiche Lorraine,340.9,7,16,27
+"Radishes,Raw",27.8,0,6,0
+"Raisin Bran,Kellogg's",317.5,11,74,4
+"Raisin Bran,Post",299.8,11,74,4
+Raisin Bread,277.5,8,53,4
+Raisin Bread,260.0,8,52,4
+"Raisin Bread,Toasted",309.5,10,62,5
+Raisins,300.0,3,79,1
+Raisins,285.7,0,79,0
+"Raspberries,Frozen,Sweetened",103.9,1,26,0
+"Raspberries,Frozen,Sweetened",102.0,1,26,0
+"Raspberries,Raw",48.8,1,11,1
+"Red Kidney Beans,Dry,Canned",90.2,6,16,0
+"Refried Beans,Canned",101.7,6,18,1
+"Relish,Sweet",133.3,0,33,0
+"Rhubarb,Cooked,Added Sugar",116.7,0,31,0
+Rice Krispies Cereal,388.0,7,88,0
+"Rice,Brown,Cooked",117.9,3,26,1
+"Rice,White,Cooked",109.8,2,24,0
+"Rice,White,Instant,Cooked",109.1,2,24,0
+"Rice,White,Parboiled,Cooked",105.7,2,23,0
+"Rice,White,Parboiled,Raw",370.3,8,81,1
+"Rice,White,Raw",362.2,6,81,1
+"Ricotta Cheese,Part Skim Milk",138.2,11,5,8
+"Ricotta Cheese,Whole Milk",174.8,11,3,13
+Roast Beef Sandwich,230.0,15,23,9
+"Rolls,Dinner,Commercial",303.6,7,50,7
+"Rolls,Dinner,Home Recipe",342.9,9,57,9
+"Rolls,Frankfurter + Hamburger",287.5,8,50,5
+"Rolls,Hard",310.0,10,60,4
+"Rolls,Hoagie Or Submarine",296.3,8,53,6
+Root Beer,44.6,0,11,0
+"Rye Bread,Light",262.1,8,48,4
+"Rye Bread,Light",260.0,8,48,4
+"Rye Bread,Light,Toasted",295.5,9,55,5
+"Rye Wafers,Whole-Grain",392.9,7,71,7
+Safflower Oil,883.0,0,0,100
+Safflower Oil,892.9,0,0,100
+"Salami,Cooked Type",254.4,14,2,19
+"Salami,Dry Type",425.0,25,5,35
+"Salmon,Baked,Red",164.7,25,0,6
+"Salmon,Canned,Pink,W/ Bones",141.2,20,0,6
+"Salmon,Smoked",176.5,21,0,9
+Salt,0.0,0,0,0
+Saltines,416.7,8,75,8
+"Sandwich Spread,Pork,Beef",233.3,7,13,20
+Sandwich Type Cookie,487.5,5,72,20
+"Sardines,Atlntc,Cnned,Oil,Drn",205.9,24,0,11
+"Sauerkraut,Canned",19.1,1,4,0
+"Scallops,Breaded,Frzn,Reheat",216.7,17,11,11
+"Seaweed,Kelp,Raw",35.3,0,11,0
+"Seaweed,Spirulina,Dried",282.2,56,25,7
+"Self-Rising Flour,Unsifted",352.0,10,74,1
+Semisweet Chocolate,505.9,4,57,36
+Sesame Seeds,562.5,25,12,50
+"Shakes,Thick,Chocolate",118.4,3,21,3
+"Shakes,Thick,Vanilla",111.3,4,18,3
+"Sheetcake W/O Frstng,recipe",364.2,5,56,14
+"Sheetcake,W/ Whfrstng,recipe",366.8,3,63,12
+"Sheetcake,W/ Whfrstng,recipe",367.8,3,64,12
+"Sheetcake,W/O Frstng,recipe",366.3,5,56,14
+"Sherbet,2% Fat",140.1,1,30,2
+"Sherbet,2% Fat",139.9,1,31,2
+"Shortbread Cookie,Commercial",484.4,6,62,25
+"Shortbread Cookie,Home Recipe",517.9,7,61,29
+Shredded Wheat Cereal,352.7,11,81,4
+"Shrimp,Canned,Drained",117.6,25,1,1
+"Shrimp,French Fried",235.3,19,13,12
+"Snack Cakes,Devils Food,Cremfl",375.0,4,61,14
+"Snack Cakes,Sponge Creme Fllng",369.0,2,64,12
+Snack Type Crackers,500.0,0,67,33
+"Snap Bean,Cnnd,Drnd,Green,Salt",18.5,1,4,0
+"Snap Bean,Cnnd,Drnd,Grn,Nosalt",18.5,1,4,0
+"Snap Bean,Cnnd,Drnd,Yllw,Salt",18.5,1,4,0
+"Snap Bean,Cnnd,Drnd,Yllw,Nosal",18.5,1,4,0
+"Snap Bean,Frz,Ckd,Drnd,Green",25.9,1,6,0
+"Snap Bean,Frz,Ckd,Drnd,Yellow",25.9,1,6,0
+"Snap Bean,Raw,Ckd,Drnd,Green",36.0,2,8,0
+"Snap Bean,Raw,Ckd,Drnd,Yellow",36.0,2,8,0
+Sour Cream,215.2,3,4,21
+Sour Cream,208.3,0,8,25
+Soy Sauce,55.6,11,11,0
+"Soybean Oil,Hydrogenated",883.0,0,0,100
+"Soybean Oil,Hydrogenated",892.9,0,0,100
+"Soybean-Cottonseed Oil,Hydrgn",883.0,0,0,100
+"Soybean-Cottonseed Oil,Hydrgn",892.9,0,0,100
+"Soybeans,Dry,Cooked,Drained",130.6,11,11,6
+"Spaghetti,Cooked,Firm",146.2,5,30,1
+"Spaghetti,Cooked,Tender",110.7,4,23,1
+"Spaghetti,Tom Sauce Chee,Hmrp",104.0,4,15,4
+"Spaghetti,Tom Sauce Chees,Cnd",76.0,2,16,1
+"Spaghetti,Meatballs,Tomsa,Hmrp",133.1,8,16,5
+"Spaghetti,Meatballs,Tomsac,Cnd",104.0,5,12,4
+Special K Cereal,388.0,21,74,0
+Spinach Souffle,161.8,8,2,13
+"Spinach,Canned,Drnd,W/ Salt",23.4,3,3,0
+"Spinach,Canned,Drnd,W/O Salt",23.4,3,3,0
+"Spinach,Cooked Fr Frzen,Drnd",28.9,3,5,0
+"Spinach,Cooked From Raw,Drnd",22.2,3,4,0
+"Spinach,Raw",18.2,4,4,0
+"Squash,Summer,Cooked,Draind",19.4,1,4,1
+"Squash,Winter,Baked",39.0,1,9,0
+"Strawberries,Frozen,Sweetend",96.8,1,26,0
+"Strawberries,Frozen,Sweetend",96.1,0,26,0
+"Strawberries,Raw",30.2,1,7,1
+"Sugar Cookie,From Refrig Dogh",489.6,4,65,25
+"Sugar Frosted Flakes,Kellogg",388.0,4,92,0
+Sugar Smacks Cereal,370.4,7,88,4
+"Sugar,Brown,Pressed Down",372.7,0,96,0
+"Sugar,Powdered,Sifted",385.0,0,100,0
+"Sugar,White,Granulated",385.0,0,100,0
+"Sugar,White,Granulated",375.0,0,100,0
+"Sugar,White,Granulated",416.7,0,100,0
+Sunflower Oil,883.0,0,0,100
+Sunflower Oil,892.9,0,0,100
+Sunflower Seeds,564.4,21,18,49
+Super Sugar Crisp Cereal,370.4,7,92,0
+Sweet (Dark) Chocolate,529.1,4,56,35
+Sweetened Condensed Milk Cnnd,320.3,8,54,9
+"Sweetpotatoes,Baked,Peeled",100.9,2,25,0
+"Sweetpotatoes,Boiled W/O Peel",106.0,1,25,0
+"Sweetpotatoes,Candied",138.1,1,28,3
+"Sweetpotatoes,Canned,Mashed",102.0,2,23,0
+"Sweetpotatoes,Cnned,Vac Pack",87.5,2,20,0
+Swiss Cheese,370.4,28,4,28
+"Syrup,Chocolate Flavored Thin",223.7,3,58,0
+"Syrup,Chocolate Flvred,Fudge",328.9,5,55,13
+Table Syrup (Corn And Maple),290.5,0,76,0
+Taco,240.7,11,19,14
+Tahini,600.0,20,20,53
+"Tangerine Juice,Canned,Swtned",50.2,0,12,0
+"Tangerines,Canned,Light Syrp",61.5,0,16,0
+"Tangerines,Raw",41.7,1,11,0
+Tartar Sauce,535.7,0,7,57
+"Tea,Brewed",0.0,0,0,0
+"Tea,Instant,Preprd,Unsweetend",0.0,0,0,0
+"Tea,Instant,Prepard,Sweetened",32.4,0,8,0
+Toaster Pastries,388.9,4,70,11
+Tofu,70.8,8,2,4
+"Tomato Juice,Canned W/O Salt",16.4,1,4,0
+"Tomato Juice,Canned With Salt",16.4,1,4,0
+"Tomato Paste,Canned W/O Salt",84.0,4,19,1
+"Tomato Paste,Canned With Salt",84.0,4,19,1
+"Tomato Puree,Canned W/O Salt",42.0,2,10,0
+"Tomato Puree,Canned With Salt",42.0,2,10,0
+"Tomato Sauce,Canned With Salt",30.6,1,7,0
+"Tomato Soup W/ Water,Canned",34.8,1,7,1
+"Tomato Soup With Milk,Canned",64.5,2,9,2
+"Tomato Veg Soup,Dehyd,Prepred",21.2,1,4,1
+"Tomatoes,Canned,S+L,W/ Salt",20.8,1,4,0
+"Tomatoes,Canned,S+L,W/O Salt",20.8,1,4,0
+"Tomatoes,Raw",20.3,1,4,0
+"Tortillas,Corn",216.7,7,43,3
+Total Cereal,352.7,11,78,4
+Trix Cereal,388.0,7,88,0
+"Trout,Broiled,W/ Buttr,Lemju",205.9,25,0,11
+Tuna Salad,182.9,16,9,9
+"Tuna,Cannd,Drnd,Oil,Chk,Lght",194.1,28,0,8
+"Tuna,Cannd,Drnd,Watr,White",158.8,35,0,1
+"Turkey Ham,Cured Turkey Thigh",131.6,19,0,5
+"Turkey Loaf,Breast Meat W/O C",107.1,24,0,2
+"Turkey Loaf,Breast Meat,W/ C",107.1,24,0,2
+"Turkey Patties,Brd,Battd,Frid",281.2,14,16,19
+"Turkey Roast,Frzn,Lght+Drk,Ck",152.9,21,4,6
+"Turkey,Roasted,Dark Meat",188.2,28,0,7
+"Turkey,Roasted,Light + Dark",171.4,29,0,5
+"Turkey,Roasted,Light + Dark",170.6,29,0,5
+"Turkey,Roasted,Light Meat",158.8,29,0,4
+"Turnip Greens,Cked Frm Frozen",30.5,3,5,1
+"Turnip Greens,Cooked From Raw",20.8,1,4,0
+"Turnips,Cooked,Diced",19.2,1,5,0
+Vanilla Wafers,462.5,5,72,18
+"Veal Cutlet,Med Fat,Brsd,Brld",217.6,27,0,11
+"Veal Rib,Med Fat,Roasted",270.6,27,0,16
+"Vegetable Beef Soup,Canned",32.8,2,4,1
+"Vegetable Juice Cocktail,Cnnd",18.6,1,5,0
+"Vegetables,Mixed,Canned",46.0,2,9,0
+"Vegetables,Mixed,Cked Fr Frz",57.7,3,13,0
+"Vegetarian Soup,Canned",29.0,1,5,1
+Vienna Bread,280.0,8,52,4
+Vienna Sausage,281.2,12,0,25
+Vinegar And Oil Salad Dressing,437.5,0,0,50
+"Vinegar,Cider",0.0,0,7,0
+"Waffles,From Home Recipe",326.7,9,35,17
+"Waffles,From Mix",273.3,9,36,11
+"Walnuts,Black,Chopped",608.0,24,12,57
+"Walnuts,Black,Chopped",599.6,25,11,56
+"Walnuts,English,Pieces",641.7,14,18,62
+"Walnuts,English,Pieces",634.9,14,18,63
+"Water Chestnuts,Canned",50.0,1,12,0
+"Watermelon,Raw",32.2,1,7,0
+"Watermelon,Raw,Diced",31.2,1,7,1
+Wheat Bread,255.5,9,47,4
+Wheat Bread,260.0,8,48,4
+"Wheat Bread,Toasted",282.6,13,52,4
+"Wheat Flour,All-Purpose,Siftd",365.2,10,77,1
+"Wheat Flour,All-Purpose,Unsif",364.0,10,76,1
+"Wheat,Thin Crackers",437.5,12,62,12
+Wheaties Cereal,352.7,11,81,0
+"Whipped Topping,Pressurized",258.3,3,12,22
+"Whipped Topping,Pressurized",333.3,0,0,33
+"Whipping Cream,Unwhiped,Heavy",344.5,2,3,37
+"Whipping Cream,Unwhiped,Heavy",333.3,0,0,40
+"Whipping Cream,Unwhiped,Light",292.9,2,3,31
+"Whipping Cream,Unwhiped,Light",300.0,0,0,33
+White Bread,266.5,8,49,4
+"White Bread Crumbs,Soft",266.7,9,49,4
+White Bread Cubes,266.7,7,50,3
+"White Bread,Slice 18 Per Loaf",260.0,8,48,4
+"White Bread,Slice 22 Per Loaf",275.0,10,50,5
+"White Bread,Toasted 18 Per",295.5,9,55,5
+"White Bread,Toasted 22 Per",323.5,12,59,6
+"White Cake W/ Wht Frstng,Comml",365.8,4,59,13
+"White Cake W/ Wht Frstng,Comml",366.2,4,59,13
+White Sauce W/ Milk From Mix,90.9,4,8,5
+"White Sauce,Medium,Home Recp",158.0,4,10,12
+Whole-Wheat Bread,244.5,10,45,4
+Whole-Wheat Bread,250.0,11,46,4
+"Whole-Wheat Bread,Toasted",280.0,12,52,4
+"Whole-Wheat Flour,Hrd Wht,Stir",333.3,13,71,2
+"Whole-Wheat Wafers,Crackers",437.5,12,62,25
+"Wine,Dessert",135.9,0,8,0
+"Wine,Table,Red",73.5,0,3,0
+"Wine,Table,White",78.4,0,3,0
+"Yeast,Bakers,Dry,Active",285.7,43,43,0
+"Yeast,Brewers,Dry",312.5,38,38,0
+"Yellow Cake W/ Choc Frst,Frmix",337.1,4,58,11
+"Yellow Cake W/ Choc Frst,Frmix",340.6,4,58,12
+"Yellowcake W/ Chocfrstng,Comml",351.5,4,56,16
+"Yellowcake W/ Chocfrstng,Comml",355.1,3,57,16
+"Yogurt,W/ Lofat Milk,Plain",63.9,5,7,2
+"Yogurt,W/ Lofat Milk,Fruitflv",101.3,4,19,1
+"Yogurt,W/ Nonfat Milk",55.1,6,7,0
+"Yogurt,W/ Whole Milk",61.7,4,5,3
